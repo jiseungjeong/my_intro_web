@@ -1,0 +1,156 @@
+body  {
+    margin: 0;
+}
+.menu-outline {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(256,256,256,0.8);
+    
+    justify-content: center;
+    align-items: center;
+}
+.menu-bar {
+  justify-content: space-between;
+  -webkit-box-sizing: border-box;
+
+  width: 100%;
+  max-width: 72.5rem;
+  min-width: 30rem;
+  padding: 1.25rem 2rem;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+hr {
+  width: 3.25rem;
+  height: 0;
+  margin: 1.5rem auto;
+  border: none;
+  border-top: 0.2rem solid #f4623a;
+  opacity: 1;
+}
+
+.menu-bar__column:nth-child(1) {
+  display: inline-block;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.menu-bar__column:nth-child(2) {
+  display: flex;
+  float: right;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.menu-bar__column__sub {
+  padding: 0 10px;
+}
+
+.name-header__title {
+  font-family: Black Han Sans, sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  word-break: keep-all;
+  padding: 8rem 1rem 2rem;
+  margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+svg {
+  width: 2.5rem;
+  height: auto;
+  color: gray;
+  margin-right: 1rem;
+}
+
+.name-header {
+  text-align: center;
+  width: auto;
+  height: auto;
+  background-image: url("../unist_backgroung.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 2rem;
+  
+}
+
+.name-header__introduction {
+  margin: 0 auto 2rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.name-header__find-out-more {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10rem;
+  background-color: #f4623a;
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.about-me {
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    max-width: 70rem;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+}
+.about-me__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-me__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title__about-me {
+  font-family: "Black Han Sans", serif;
+  font-size: 4rem;
+  border-bottom: solid 2px lightgray ;
+}
+.about-me__basic-info {
+    
+    margin-top: 4rem;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 55rem;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+
+.basic-info__element {
+    display: flex;
+    margin: 0 auto;
+    flex-flow: row nowrap;
+    max-width: 14rem;
+    width: 100%;
+    opacity: .8;
+    margin-bottom: 2rem;
+}
+
+.basic-info__icon {
+    margin-right:2rem;
+    margin-top: 0.2rem;
+}
+
+.basic-info__text-bold {
+    font-weight: 800;
+}
